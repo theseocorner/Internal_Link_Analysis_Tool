@@ -1,0 +1,12 @@
+name: Internal_Link_Analysis_Tool
+title: Internal_Link_Analysis_Tool
+username: theseocorner
+account: theseocorner
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14724741
+bundleId: 10265794
+url: https://theseocorner.shinyapps.io/Internal_Link_Analysis_Tool/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
