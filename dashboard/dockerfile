@@ -18,8 +18,10 @@ COPY Rcrawler_modified.R /home/shiny-app/Rcrawler_modified.R
 COPY www /home/shiny-app/www
 
 # Expose the application port
-EXPOSE 8180
+EXPOSE 3838
+
 
 # Run the R Shiny app
 #CMD Rscript /home/shiny-app/app.R
-CMD ["R", "-e", "shiny::runApp('/home/shiny-app/app.R',port = 8180)"]
+CMD ["R", "-e", "shiny::runApp('/home/shiny-app/app.R',port = 3838,host = '0.0.0.0')"]
+
