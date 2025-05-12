@@ -7,7 +7,11 @@ RUN mkdir /home/shiny-app
 # Install R dependencies
 RUN apt-get update && apt-get install -y \
   build-essential \
-  libglpk40
+  libglpk40 \
+  libcurl4-openssl-dev \
+    libxml2-dev \
+    libssl-dev \
+    curl
   
 RUN R -e "install.packages(c('tidyverse', 'Rcrawler', 'visNetwork','shiny','shinydashboard','shinycssloaders','fresh','DT','shinyBS','faq','igraph','devtools'))"
 RUN R -e 'devtools::install_github("salimk/Rcrawler")'
