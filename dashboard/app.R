@@ -13,7 +13,15 @@ library(igraph)
 
 # source modified crawler------------
 
+print(getwd())
+
+# non docker source
+
 source("Rcrawler_modified.R")
+
+# docker source
+
+#source("./home/shiny-app/Rcrawler_modified.R")
 
 # setting theme-------------------
 
