@@ -489,7 +489,7 @@ server <- function(input, output, session) {
       tryCatch({
         crawl_data <- Rcrawler_modified(
           Website = website_url,
-          no_cores = 4,
+          no_cores = 1,
           no_conn = 4 ,
           NetworkData = TRUE,
           NetwExtLinks = TRUE,
