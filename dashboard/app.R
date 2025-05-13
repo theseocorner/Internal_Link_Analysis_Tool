@@ -484,12 +484,12 @@ server <- function(input, output, session) {
       
       setProgress(value = 28, message = "Checking Intenet access")
       
-      tryCatch({
-        print(readLines("https://httpbin.org/get"))
-      }, error = function(e) {
-        print("Internet access error:")
-        print(e)
-      })
+      # tryCatch({
+      #   print(readLines("https://httpbin.org/get"))
+      # }, error = function(e) {
+      #   print("Internet access error:")
+      #   print(e)
+      # })
       
       setProgress(value = 32, message = "Crawling the site. This may take a while...")
       
