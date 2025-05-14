@@ -5,8 +5,9 @@ account: theseocorner
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14724741
-bundleId: 10278215
+bundleId: 10278246
 url: https://theseocorner.shinyapps.io/Internal_Link_Analysis_Tool/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: dockerfile
