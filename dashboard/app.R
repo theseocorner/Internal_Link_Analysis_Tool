@@ -108,7 +108,7 @@ ui <- dashboardPage(
         label = div("Crawl Depth", icon("fas fa-question-circle")),
         min = 1,
         max = 11,
-        value = c(11)
+        value = c(5)
       ) %>% tipify(
         "Specify how many levels need to be crawled. E.g. Crawl Depth of 1 will show only the links from the initial page. Depth of 2 will show all pages linked to from the initial page and all pages linked to from those pages etc.",
         placement = "bottom"
