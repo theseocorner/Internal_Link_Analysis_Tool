@@ -470,7 +470,7 @@ server <- function(input, output, session) {
       
       # capturing website url and generating homepage url
       
-      website_url <- input$website_url %>% str_replace("/$", "")
+      website_url <- tolower(input$website_url) %>% str_replace("/$", "")
       homepage_url <-
         website_url %>% str_replace("(?<=//.{1,1000})/.+$", "")
       connections_limit <-
@@ -539,7 +539,7 @@ server <- function(input, output, session) {
     # setting the key option values
     
     values$checkpoint
-    website_url <- input$website_url %>% str_replace("/$", "")
+    website_url <- tolower(input$website_url) %>% str_replace("/$", "")
     homepage_url <-
       website_url %>% str_replace("(?<=//.{1,1000})/.+$", "")
     connections_limit <-
