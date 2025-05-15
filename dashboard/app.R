@@ -380,7 +380,7 @@ To do this:
 ## <span style='color:#e54715'>Issues and Bug Reporting</span>
 
 We're always on the lookout for new feature suggestions and feedback to improve the tool.
-If you encounter bugs or have ideas for enhancements, please visit [our contact page](https://theseocorner.com/contact-us) and drop us a message.
+If you encounter bugs or have ideas for enhancements, please visit <a href='https://theseocorner.com/contact-us' target='_blank' rel='noopener'>our contact page</a> and drop us a message.
 
     "
                 ),
